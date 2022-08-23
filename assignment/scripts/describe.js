@@ -138,6 +138,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FIX - variable definition missing for colorTwo. fix: {colorOne = 'purple', colorTwo = 'purple'}
   colorOne = 'purple';
 }
 */
@@ -150,6 +151,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - Instructions say temp >39 AND if time >=4. They used the 'or' symbol. Should be if(temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,7 +164,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX-Instructions as to check if age is >= to, and say the output should be 'enter' which is not in the right log for the current statement
+// FIX cont. - Should read : if(age >= minAge){console.log('enter')'} else {console.log('no entry');}
 if(minAge <= age) {
   console.log('no entry');
 } else {
