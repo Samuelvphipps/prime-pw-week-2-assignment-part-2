@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // conditional statement that if the code is equal in type and value to 123 secret will be 'super' and code will multiply by 2
 // since code does equal 123 the value of secret is now 'super' and the value of code is 246
 // the next conditional statement says that if code, which is now 246, is > 250 the value for 'secret' will change to 'duper'. 
-// since code is less than 250 when the consol.log is ran the console will log super.
+// since code is less than 250 when the consol.log is ran the console will log 'super'.  
 
 //CODE
 /*
@@ -73,10 +73,11 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // created 3 variables, isStudent is true, age is 34, and zip is 55407
 // conditional statement that if isStudent is true and zip is >80000, if this is true and both conditions are met the console will log `You're a student on the West Coast!`
-// if not true, then it checks if isStudent is false, or the persons age is under 30 and if so in either case it will log 'What are your hobbies?'
-// if not this, then it will check if isStudent equalts true and if so log 'Welcome to Prime!'
+// it is not true, then it checks if isStudent is false, or if the persons age is under 30 and if so in either case it will log 'What are your hobbies?'
+// it is not, then it will check if isStudent equalts true and if so log 'Welcome to Prime!' it is so this is what it will log
 // finally, if all do not match, the default of 'How about the weather?' will log
-// So, after these values and conditions the console will log "Welcome to Prime!" This is because the first two conditions are false and the third is true.
+// So, after these values and conditions the console will log "Welcome to Prime!" as this is the condition that is met first. 
+// This is because the first two conditions are false and the third is true.
 
 //CODE
 /*
